@@ -8,19 +8,49 @@
   <body>
     <!--Encabezado-->
     <header>
-      ¡Ingresa tu mensaje a cifrar o descifrar!
+      <h1>Chat Parental</h1>
     </header>
     
     <!--Sección-->
     <section>
-      <h1>¿Cuál es tu mensaje?</h1>
+      <!--MENSAJE del usuario-->
+      <div id="mensajeUsuario">
+        <h2>Ingrese su mensaje</h2>
+         <!--<form action="formhandler.php">-->
+          <input type="text" id="mensaje" >
+          <!--placeholder="Escriba aquí"-->
+          <!--<input type="submit">-->
+         <!--</form>-->
+        <!--<input type="text" id="antes" placeholder="Ingresa tu mensaje aquí" autofocus="">-->
+      </div>
+      
+      <!--NUMERO DE POSICIONES que el usuario quiere usar en su cifrado-->
+      <div id="posicionesMensaje">
+        <h2>Ingrese el número de posiciones para su cifrado</h2>
+        <!--<form action="formhandler.php">-->
+          <input type="text" id="posicion" >
+        <!--</form>-->
+      </div>
+      <br>
+      <!--Botones-->
+      <button type="button" id="botonCodificar" class="pregunta" onclick="codificar()">Codificar</button>
+      
+      <!--Respuesta-->
+      <div id="respuesta">
+        <h3 id="mensajeFinal"></h3>
+        <p id="resultado"></p>
+        <!--<p id="offsetResult"></p>-->
+        <!--<button type="submit" id="botonVolver" class="pregunta" onclick="window.location.reload()">Preguntar nuevamente</button>-->
+      </div>
+
     </section>
     
     
     <div id="root">
       <!--<h1>Hello world! Cambios realizados</h1>-->
     </div>
-    <script src="index.js" type="module"></script>
-    <script>src="cipher.js"</script>
+    <script src="index.js"></script>
+    <!--<script src="index.js" type="module"></script>-->
+    <script src="cipher.js"></script>
   </body>
 </html>
