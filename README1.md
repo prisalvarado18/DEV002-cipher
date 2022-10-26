@@ -67,3 +67,6 @@ Proteger mi privacidad y seguridad.
 * Debe mostrarse la parte donde pueda ingresar mi mensaje a decifrar.
 
 
+### 5.2. Sprint Planning
+Definición de tareas 
+* Diseño del prototipo 
