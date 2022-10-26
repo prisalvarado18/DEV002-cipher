@@ -28,7 +28,7 @@ Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado 
 
 ## 2. Objetivos
 ### Objetivo General
-<details><summary>Diseñar y desarrollar una aplicación de cifrado secreto para familias.</summary><p>
+- [ ] **Diseñar y desarrollar una aplicación de cifrado secreto para familias.**
 
 ### Objetivos Eespecíficos
 **Definir el producto.**
