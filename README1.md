@@ -5,7 +5,7 @@
 * [1. Tema](#1-tema)
 * [2. Planteamiento del problema](#2-planteamiento-del-problema)
 * [3. Objetivos](#3-objetivos)
-* [4. Definición del producto](#4-definicion-del-producto)
+* [4. Definición del producto](#4-definición-del-producto)
 * [5. Metodología](#5-metodologia)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
