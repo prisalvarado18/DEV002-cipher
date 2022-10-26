@@ -24,7 +24,7 @@ Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado 
 
 ## 3. Objetivos
 ### Objetivo General
-- [ ] **Diseñar y desarrollar una aplicación de cifrado secreto para familias.**
+- [ ] **Diseñar y desarrollar una aplicación de cifrado secreto para colectivos de mujeres.**
 
 ### Objetivos Específicos
 - [ ] **Definir el producto.**
