@@ -30,7 +30,7 @@ Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado 
 ### Objetivo General
 - [ ] **Diseñar y desarrollar una aplicación de cifrado secreto para familias.**
 
-### Objetivos Eespecíficos
+### Objetivos Específicos
 - [ ] **Definir el producto.**
 - [ ] **Emplear la metodología SCRUM en el proceso de la creación de la aplicación.**
 - [ ] **Usar y comprender HTML semántico, selectores de CSS, Web APIs, JavaScript y Github**
