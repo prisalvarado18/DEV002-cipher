@@ -4,51 +4,64 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nexa" rel="stylesheet">
   </head>
   <body>
     <!--Encabezado-->
     <header>
-      <h1>Inicio</h1>
+      <div class="principio">
+      <h1>INICIO</h1>
+      <!--<button type="submit" id="botonVolver" class="volver" onclick="window.location.reload()">Inicio</button>-->
+      </div>
     </header>
 
     <!--Sección-->
     <section>
-      <p>INGRESA EL TEXTO QUE QUISIERAS CODIFICAR O DECODIFICAR. TU SEGURIDAD
-        ES NUESTRA PRIORIDAD
+      <p><strong>INGRESA EL TEXTO QUE QUISIERAS CODIFICAR O DECODIFICAR. TU SEGURIDAD
+        ES NUESTRA PRIORIDAD</strong>
       </p>
     </section>
-    <!--Sección-->
+    <br>
     
     <!--Sección-->
-    <section>
+    <section class="contenedor">
       <!--MENSAJE del usuario-->
-      <div id="mensajeUsuario">
-        <h2>Texto</h2>
-         <!--<form action="formhandler.php">-->
-          <input type="text" id="mensaje" >
-          <!--placeholder="Escriba aquí"-->
-          <!--<input type="submit">-->
-         <!--</form>-->
-        <!--<input type="text" id="antes" placeholder="Ingresa tu mensaje aquí" autofocus="">-->
+      <div class="mensajeUsuario">
+        <div class="arriba">
+          <h3>TEXTO</h3>
+        </div>
+        <div class="abajo">
+          <!--<form action="formhandler.php">-->
+          <input type="text" id="mensaje" placeholder="Escriba aquí">
+          <!--</form>-->
+        </div>
       </div>
       
       <!--NUMERO DE POSICIONES que el usuario quiere usar en su cifrado-->
       <div id="posicionesMensaje">
-        <h2>Código</h2>
-        <!--<form action="formhandler.php">-->
+        <div class="arriba">
+          <h3>CÓDIGO</h3>
+        </div>
+        <div class="abajo">
+          <!--<form action="formhandler.php">-->
           <input type="text" id="posicion" >
-        <!--</form>-->
+          <!--</form>-->
+          <!--Botones-->
+          <br>
+          <button type="button" id="botonCodificar" class="pregunta" onclick="codificar()">Cifrar</button>
+        </div>
       </div>
-      <br>
-      <!--Botones-->
-      <button type="button" id="botonCodificar" class="pregunta" onclick="codificar()">Cifrar</button>
       
       <!--Respuesta-->
       <div id="respuesta">
-        <h3 id="mensajeFinal"></h3>
-        <p id="resultado"></p>
-        <!--<p id="offsetResult"></p>-->
-        <!--<button type="submit" id="botonVolver" class="pregunta" onclick="window.location.reload()">Preguntar nuevamente</button>-->
+        <div class="arriba">
+          <h3>MENSAJE</h3>
+        </div>
+        <div class="abajo">
+          <h3 id="mensajeFinal"></h3>
+          <p id="resultado"></p>
+          <!--<p id="offsetResult"></p>-->
+        </div>
       </div>
 
     </section>
