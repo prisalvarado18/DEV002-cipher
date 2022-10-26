@@ -27,9 +27,10 @@ los mensajes de whatsapp del ex-presidente Lenin Moreno con su familia fueron fi
 Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado un total de 206 feminicidios, acumulando 1.247 casos desde 2014, cuando se tipificó el delito en el país. Es así, como varios colectivos de mujeres han creado chats grupales en whatsapp para apoyarse en caso de necesitar apoyo no solo emocional sino también relacionado con violencia. Sin embargo, aun existen riesgos de seguridad y sus mensajes pueden ser filtrados poniéndolas en riesgo. Por estas razones, se ha decidido crear una aplicación en la que colectivos de mujeres puedan enviar mensajes cifrados si así lo desean y a su vez los puedan descifrar. De esta manera, si los mensajes cifrados son filtrados, será más difícil para los hackers o las personas que accedan a los mensajes, saber lo que dice.
 
 ## 2. Objetivos
-*OBJETIVO GENERAL
+###Objetivo General
 **Diseñar y desarrollar una aplicación de cifrado secreto para familias.
-*OBJETIVOS ESPECÍFICOS
+
+###Objetivos Eespecíficos
 **Definir el producto.
 **Emplear la metodología SCRUM en el proceso de la creación de la aplicación.
 **Usar y comprender HTML semántico.
