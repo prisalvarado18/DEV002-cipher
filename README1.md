@@ -31,13 +31,9 @@ Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado 
 - [ ] **Diseñar y desarrollar una aplicación de cifrado secreto para familias.**
 
 ### Objetivos Eespecíficos
-**Definir el producto.**
-**Emplear la metodología SCRUM en el proceso de la creación de la aplicación.**
-**Usar y comprender HTML semántico.**
-**Emplear selectores de CSS.**
-**Web APIs.**
-**JavaScript**
-**Github**
+- [ ] **Definir el producto.**
+- [ ] **Emplear la metodología SCRUM en el proceso de la creación de la aplicación.**
+- [ ] **Usar y comprender HTML semántico, selectores de CSS, Web APIs, JavaScript y Github**
 
 ## 3. Definición del producto
 Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
