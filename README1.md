@@ -2,11 +2,11 @@
 
 ## Índice
 
-* [1. Tema](#1-tema)
-* [2. Planteamiento del problema](#2-planteamiento-del-problema)
-* [3. Objetivos](#3-objetivos)
-* [4. Definición del producto](#4-definición-del-producto)
-* [5. Metodología](#5-metodología)
+[1. Tema](#1-tema)
+[2. Planteamiento del problema](#2-planteamiento-del-problema)
+[3. Objetivos](#3-objetivos)
+[4. Definición del producto](#4-definición-del-producto)
+[5. Metodología](#5-metodología)
 
 ***
 
