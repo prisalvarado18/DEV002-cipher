@@ -56,11 +56,14 @@ La metodología a ser empleada será SCRUM dado que es parte del bootcamp de Lab
 
 ### 5.1. Product Backlog
 #### 5.1.1. User Story
-Como: usuario del sistema
-Quiero: ingresar a la aplicación y cifrar mis mensajes para que solo ciertas personas ingresen a esta misma app y decifren mi mensaje en caso de que no quiera escibir directamente algo en el chat grupal.
-Para: proteger mi privacidad y seguridad.
-Condiciones:
-● Debe mostrarse la parte donde pueda ingresar mi mensaje a cifrar.
-● Debe mostrarse la parte donde pueda ingresar mi mensaje a decifrar.
+##### Como
+Usuario del sistema
+##### Quiero 
+Ingresar a la aplicación y cifrar mis mensajes para que solo ciertas personas ingresen a esta misma app y decifren mi mensaje en caso de que no quiera escibir directamente algo en el chat grupal.
+##### Para 
+Proteger mi privacidad y seguridad.
+##### Condiciones
+* Debe mostrarse la parte donde pueda ingresar mi mensaje a cifrar.
+* Debe mostrarse la parte donde pueda ingresar mi mensaje a decifrar.
 
 
