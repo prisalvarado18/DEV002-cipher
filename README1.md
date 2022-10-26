@@ -70,3 +70,4 @@ Proteger mi privacidad y seguridad.
 ### 5.2. Sprint Planning
 Definición de tareas 
 * Diseño del prototipo 
+![primer-prototipo](https://drive.google.com/file/d/1zr7fmhaJ7tBXs2-91KyUvt4TQzxJ-l0J/view?usp=sharing)
