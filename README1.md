@@ -38,18 +38,18 @@ Por otro lado, entre el 1 de enero y el pasado 3 de septiembre se ha registrado 
 ## 3. Definición del producto
 Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
-¿Quiénes son los principales usuarios del producto?
-Miembros de colectivos de mujeres en Ecuador.
+### ¿Quiénes son los principales usuarios del producto?
+* Miembros de colectivos de mujeres en Ecuador.
 
-¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
-Proteger la seguridad de sus miembros en caso de haber infiltradas/os en el chat grupo o si hay brechas de seguridad. 
-Crear un espacio seguro para mujeres donde puedan hablar de cualquier tema.
-Tener una aplicación que cifre y descifre mensajes.
+### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+* Proteger la seguridad de sus miembros en caso de haber infiltradas/os en el chat grupo o si hay brechas de seguridad. 
+* Crear un espacio seguro para mujeres donde puedan hablar de cualquier tema.
+* Tener una aplicación que cifre y descifre mensajes.
 
-¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
-Protege a los miembros del chat grupal en caso de filtrado de mensajes ya sea de manera escrita o con capturas.
-Hace que los miembros se sientan seguras en caso de compartir información sensible a su privacidad.
-Aumenta su confianza para contar lo que sea que quieran compartir con el grupo. 
+### ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+* Protege a los miembros del chat grupal en caso de filtrado de mensajes ya sea de manera escrita o con capturas.
+* Hace que los miembros se sientan seguras en caso de compartir información sensible a su privacidad.
+* Aumenta su confianza para contar lo que sea que quieran compartir con el grupo. 
 
 ## 3. Metodología
 
