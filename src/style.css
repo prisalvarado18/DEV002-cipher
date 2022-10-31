@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+*{
+    font-family: "Montserrat";
+}
+
 body{
     background-color: #97C6EA;
     font-family: 'Montserrat', sans-serif;
@@ -9,7 +13,6 @@ body{
 }
 
 li, a {
-    font-family: "Montserrat";
     font-size: 22px;
     font-weight: bold;
     color: #2B81B8;
@@ -83,7 +86,6 @@ textarea {
     border-style: none;
     outline: none;
     resize: none;
-    font-family: Montserrat;
     font-size: 25px;
 }
 
@@ -97,7 +99,6 @@ textarea {
     padding-bottom: 11px;
     padding-top: 10px;
     width: 42%;
-    font-family:"Montserrat";
 }
 
 .boton_descifrar {
@@ -110,7 +111,6 @@ textarea {
     padding-bottom: 11px;
     padding-top: 10px;
     width: 56.6%;
-    font-family:"Montserrat";
 }
 
 .botones {
