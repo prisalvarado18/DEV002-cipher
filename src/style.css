@@ -1,43 +1,58 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
     background-color: #97C6EA;
-    font-family: 'Nexa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+li, a {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    color: #2B81B8;
+    text-decoration: none;
+    background-color: white; /*Color del fondo de INICIO*/
 }
 
 header {
-    background: white;
-    height: 100px;
-    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
 }
 
-.principio {
-    text-align: right;
-    padding: 20px;
-    margin-right: 5%;
+.enlaces_de_navegacion {
+    list-style: none; /*Quita el bullet point de la lista*/
 }
 
-h1 {
+.logo {
+    background-color: white;
+}
+
+h1, p {
+    margin-left: 30px;
+}
+
+h2{
     color: #2B81B8;
     font-size: 22px;
 }
 
+/*Mostrar de manera horizontal*/
 section {
-    margin-left: 10%;
+    margin-left: 9%;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(270px,1fr));
 }
 
-
-.mensajeUsuario {
-    width: 250px;
-    height: auto;
-}
-
-.arriba{
-    width: 248px;
-    height: 50px;
-    border: 1px solid black;
+.parte_superior{
+    width: 300px;
+    height: 60px;
+    border: 1px solid;
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -47,12 +62,60 @@ section {
 
 }
 
-.abajo{
-    width: 248px;
-    height: 200px;
+.parte_inferior{
+    width: 300px;
+    height: 150px;
     border: 1px solid black;   
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; 
     background-color: white;
     border-color: #97C6EA;
+    /*margin: 0;*/
+    padding-bottom: 48px;
+    text-align: center; /*centrar los botones*/
+}
+
+textarea {
+    width: 94%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 1%;
+    border-style: none;
+    outline: none;
+    resize: none;
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+.boton_cifrar {
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #4399D4;
+    height: 30%;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    width: 42%;
+}
+
+.boton_descifrar {
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #4399D4;
+    height: 30%;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    width: 56.6%;
+}
+
+.botones {
+    margin: none;
+    background-color: #97C6EA;
+}
+
+.boton_cifrar:hover, .boton_descifrar:hover{
+    background-color:slategray ;
 }
