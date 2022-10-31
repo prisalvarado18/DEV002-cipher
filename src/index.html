@@ -2,76 +2,78 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Colectiva Cipher</title>
+    <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Nexa" rel="stylesheet">
   </head>
   <body>
-    <!--Encabezado-->
     <header>
-      <div class="principio">
-      <h1>INICIO</h1>
-      <!--<button type="submit" id="botonVolver" class="volver" onclick="window.location.reload()">Inicio</button>-->
-      </div>
+      <!--Logo-->
+      <img class="logo" src="img/logo_app.png" alt="Logo de la app" style="width:5%">
+      <!--Barra de navegación-->
+      <nav>
+        <!--Lista no ordenada-->
+        <ul class="enlaces_de_navegacion">
+          <li><a href="index.html">INICIO</a></li>
+        </ul>
+      </nav>
     </header>
+    <main>
+      <!--Mensaje de bienvenida-->
+      <h1>Bienvenid@</h1>
+      <p>INGRESA EL TEXTO QUE QUISIERAS CODIFICAR O DECODIFICAR. TU SEGURIDAD ES 
+        NUESTRA PRIORIDAD.</p>
+      <br>
+      <!--Sección para Cuadros con el proceso de cifrado o descifrado-->
+      <section class="contenido">
+        <!--Cuadro para "Ingresar texto"-->
+        <div id="input_texto">
+          <!--Parte superior"-->
+          <div class="parte_superior">
+            <h2>TEXTO</h2>
+          </div>
+          <!--Parte inferior"-->
+          <div class="parte_inferior">
+            <textarea type="text" id="ingreso_texto" placeholder="Escriba texto aquí"></textarea>
+          </div>
+        </div>
 
-    <!--Sección-->
-    <section>
-      <p><strong>INGRESA EL TEXTO QUE QUISIERAS CODIFICAR O DECODIFICAR. TU SEGURIDAD
-        ES NUESTRA PRIORIDAD</strong>
-      </p>
-    </section>
-    <br>
-    
-    <!--Sección-->
-    <section class="contenedor">
-      <!--MENSAJE del usuario-->
-      <div class="mensajeUsuario">
-        <div class="arriba">
-          <h3>TEXTO</h3>
+        <!--Cuadro para "Ingresar la clave con botones a escoger para cifrar o descifrar"-->
+        <div id="input_desplazamiento">
+          <!--Parte superior"-->
+          <div class="parte_superior">
+            <h2>CLAVE</h2>
+          </div>    
+          <!--Parte inferior"-->  
+          <div class="parte_inferior">
+            <textarea type="text" id="ingreso_desplazamientos" placeholder="Escriba clave aquí"></textarea>
+            <br>
+            <!--Botones-->
+            <div class="botones">
+                <button type="button" id="boton_codificar" class="boton_cifrar" value="cifrar" onclick="mostrarMensajeCifrado()">CIFRAR</button>
+                <button type="button" id="boton_decodificar" class="boton_descifrar" value="cifrar" onclick="mostrarMensajeDescifrado()">DESCIFRAR</button>
+            </div>
+          </div> 
         </div>
-        <div class="abajo">
-          <!--<form action="formhandler.php">-->
-          <input type="text" id="mensaje" placeholder="Escriba aquí">
-          <!--</form>-->
-        </div>
-      </div>
-      
-      <!--NUMERO DE POSICIONES que el usuario quiere usar en su cifrado-->
-      <div id="posicionesMensaje">
-        <div class="arriba">
-          <h3>CÓDIGO</h3>
-        </div>
-        <div class="abajo">
-          <!--<form action="formhandler.php">-->
-          <input type="text" id="posicion" >
-          <!--</form>-->
-          <!--Botones-->
-          <br>
-          <button type="button" id="botonCodificar" class="pregunta" onclick="codificar()">Cifrar</button>
-        </div>
-      </div>
-      
-      <!--Respuesta-->
-      <div id="respuesta">
-        <div class="arriba">
-          <h3>MENSAJE</h3>
-        </div>
-        <div class="abajo">
-          <h3 id="mensajeFinal"></h3>
-          <p id="resultado"></p>
-          <!--<p id="offsetResult"></p>-->
-        </div>
-      </div>
 
-    </section>
-    
-    
+        <!--Cuadro para mostrar el mensaje cifrado o descifrado-->
+        <div id="output_cifrado_descifrado">
+          <!--Parte superior-->
+          <div class="parte_superior">
+            <h2>MENSAJE</h2>
+          </div>
+          <div class="parte_inferior">
+            <textarea id="output"></textarea>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Preguntar para qué sirve root-->
     <div id="root">
+      <!--<h1>Hello world!</h1>-->
       <h1>Hello world! Cambios realizados</h1>
     </div>
     <script src="index.js"></script>
-    <!--<script src="index.js" type="module"></script>-->
     <script src="cipher.js"></script>
+    <!--<script src="index.js" type="module"></script>-->
   </body>
 </html>
