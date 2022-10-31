@@ -97,6 +97,7 @@ textarea {
     padding-bottom: 11px;
     padding-top: 10px;
     width: 42%;
+    font-family:"Montserrat";
 }
 
 .boton_descifrar {
@@ -109,6 +110,7 @@ textarea {
     padding-bottom: 11px;
     padding-top: 10px;
     width: 56.6%;
+    font-family:"Montserrat";
 }
 
 .botones {
