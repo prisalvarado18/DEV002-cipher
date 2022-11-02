@@ -27,6 +27,6 @@ const mostrarMensajeDescifrado =()=>{
 //Cuando el usuario de click en "DESCIFRAR" ejecutará la función "mostrarMensajeDescifrado" 
 botonDescifrar.addEventListener('click', mostrarMensajeDescifrado)
 
-console.log(cipher);
-console.log(cipher.encode(2,"A"))
-console.log(cipher.decode(2,"A"))
+//console.log(cipher);
+//console.log(cipher.encode(2,"A"))
+//console.log(cipher.decode(2,"A"))
