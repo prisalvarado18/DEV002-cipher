@@ -89,7 +89,7 @@ textarea {
     font-size: 25px;
 }
 
-.boton_cifrar {
+.boton_encode {
     border-bottom-left-radius: 10px;
     font-size: 20px;
     color: white;
@@ -101,7 +101,7 @@ textarea {
     width: 42%;
 }
 
-.boton_descifrar {
+.boton_decode {
     border-bottom-right-radius: 10px;
     font-size: 20px;
     color: white;
@@ -118,6 +118,6 @@ textarea {
     background-color: #97C6EA;
 }
 
-.boton_cifrar:hover, .boton_descifrar:hover{
+.boton_encode:hover, .boton_decode:hover{
     background-color:slategray ;
 }
