@@ -15,7 +15,7 @@ const mostrarMensajeCifrado =()=>{
 }
 
 //Cuando el usuario de click en "CIFRAR" ejecutará la función "mostrarMensajeCifrado" 
-botonCifrar.addEventListener('click', mostrarMensajeCifrado)
+botonCifrar.addEventListener('click', mostrarMensajeCifrado);
 
 //Función que envía el input del usuario a cipher.js y ejecuta "decode"
 const mostrarMensajeDescifrado =()=>{
@@ -25,7 +25,7 @@ const mostrarMensajeDescifrado =()=>{
 }
 
 //Cuando el usuario de click en "DESCIFRAR" ejecutará la función "mostrarMensajeDescifrado" 
-botonDescifrar.addEventListener('click', mostrarMensajeDescifrado)
+botonDescifrar.addEventListener('click', mostrarMensajeDescifrado);
 
 //console.log(cipher);
 //console.log(cipher.encode(2,"A"))
