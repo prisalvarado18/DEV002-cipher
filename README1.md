@@ -75,12 +75,19 @@ A continuación, se muestra el diseño de los prototipos el conjunto con el clie
 ![segundo-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
 
 ### 5.3. Manual de usuario
-* Uso online
-Para emplear esta aplicación en línea debe ingresar al siguiente enlace: https://prisalvarado18.github.io/DEV002-cipher/src/index.html
+### 5.3.1. Uso online
+* Para emplear esta aplicación en línea debe ingresar al siguiente enlace: https://prisalvarado18.github.io/DEV002-cipher/src/index.html
 
-* Descarga
-Para emplear esta aplicación en su computador debe ingresar a la página principal de este repositorio, dar click en "Code" y "Download ZIP". 
+### 5.3.2. Descarga
+* Para emplear esta aplicación en su computador debe ingresar a la página principal de este repositorio, dar click en "Code" y "Download ZIP". 
 
-Una vez que esté completa la descarga, tiene que extraer la carpeta, ingresar a la carpeta "src" y ejecutar el archivo index.html.
+* Una vez que esté completa la descarga, tiene que extraer la carpeta, ingresar a la carpeta "src" y ejecutar el archivo index.html.
 
-* Funcionalidad 
+### 5.3.3. Funcionalidad 
+Una vez que la app esté siendo ejecutada en su navegador de preferencia podrá observar las siguientes secciones:
+* Texto
+En este recuadro debe ingresar el texto que desea cifrar o descifrar.
+* Clave
+En este recuadro debe ingresar la clave la cual consta solamente de números. Si no es el caso, el mensaje no será mostrado.
+* Mensaje
+En este recuadro se desplegará el mensaje cifrado o descifrado. 
