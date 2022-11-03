@@ -69,7 +69,7 @@ A continuación, se muestra el diseño de los prototipos el conjunto con el clie
 ![primer-prototipo](./src/img/prototipo%20baja%20fidelidad.png)
 
 * Prototipo de alta fidelidad (Primero)
-![primer-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
+![primer-prototipo](./src/img/prototipo-alta-fidelidad.jpg)
 
 * Prototipo de alta fidelidad (Segundo)
 ![segundo-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
