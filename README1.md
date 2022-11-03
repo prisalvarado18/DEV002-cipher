@@ -85,9 +85,9 @@ A continuación, se muestra el diseño de los prototipos el conjunto con el clie
 
 ### 5.3.3. Funcionalidad 
 Una vez que la app esté siendo ejecutada en su navegador de preferencia podrá observar las siguientes secciones:
-* Texto
+#### Texto
 En este recuadro debe ingresar el texto que desea cifrar o descifrar.
-* Clave
+#### Clave
 En este recuadro debe ingresar la clave la cual consta solamente de números. Si no es el caso, el mensaje no será mostrado.
-* Mensaje
+#### Mensaje
 En este recuadro se desplegará el mensaje cifrado o descifrado. 
