@@ -66,9 +66,8 @@ Proteger mi privacidad y seguridad.
 A continuación, se muestra el diseño de los prototipos el conjunto con el cliente.
 
 * Prototipo de baja fidelidad 
-<pre>
-![primer-prototipo](./src/img/prototipo%20baja%20fidelidad.png)
 </pre>
+![primer-prototipo](./src/img/prototipo%20baja%20fidelidad.png)
 
 * Prototipo de alta fidelidad (Primero)
 ![primer-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
