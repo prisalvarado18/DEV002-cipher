@@ -48,10 +48,9 @@ Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el
 * Aumenta su confianza para contar lo que sea que quieran compartir con el grupo. 
 
 ## 5. Metodología
-La metodología a ser empleada será SCRUM dado que es parte del bootcamp de Laboratoria. 
+La metodología empleada fue SCRUM como parte del bootcamp de Laboratoria. La información que se puede destacar de este proceso es el siguiente: 
 
-### 5.1. Product Backlog
-#### 5.1.1. User Story
+### 5.1. User Story
 ##### Como
 Usuario del sistema
 ##### Quiero 
@@ -63,8 +62,25 @@ Proteger mi privacidad y seguridad.
 * Debe mostrarse la parte donde pueda ingresar mi mensaje a decifrar.
 
 
-### 5.2. Sprint Planning
-Definición de tareas 
-* Diseño del prototipo 
+### 5.2. Prototipo
+A continuación, se muestra el diseño de los prototipos el conjunto con el cliente.
+
+* Prototipo de baja fidelidad 
 ![primer-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
 
+* Prototipo de alta fidelidad (Primero)
+![primer-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
+
+* Prototipo de alta fidelidad (Segundo)
+![segundo-prototipo](https://i.ibb.co/44LSPMm/primer-prototipo.jpg)
+
+### 5.3. Manual de usuario
+* Uso online
+Para emplear esta aplicación en línea debe ingresar al siguiente enlace: https://prisalvarado18.github.io/DEV002-cipher/src/index.html
+
+* Descarga
+Para emplear esta aplicación en su computador debe ingresar a la página principal de este repositorio, dar click en "Code" y "Download ZIP". 
+
+Una vez que esté completa la descarga, tiene que extraer la carpeta, ingresar a la carpeta "src" y ejecutar el archivo index.html.
+
+* Funcionalidad 
