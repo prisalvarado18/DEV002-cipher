@@ -36,7 +36,7 @@ function encode (offset,string) {
 
 //Crear el metodo cipher.decode(offset, string) para DESCIFRAR
 function decode (offset,string)  {
-  //Crear una variable que almacene el texto cifrado
+  //Crear una variable que almacene el texto descifrado
   let textoDescifrado ="";
   //Convertir el offset ingresado (cadena) en numero (entero) y almacenarlo en una variable
   const numeroDesplazamientos = parseInt(offset);
