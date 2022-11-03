@@ -65,8 +65,7 @@ Proteger mi privacidad y seguridad.
 ### 5.2. Prototipo
 A continuación, se muestra el diseño de los prototipos el conjunto con el cliente.
 
-* Prototipo de baja fidelidad 
-</br>
+* Prototipo de baja fidelidad <br/>
 ![primer-prototipo](./src/img/prototipo%20baja%20fidelidad.png)
 
 * Prototipo de alta fidelidad (Primero)
