@@ -38,10 +38,11 @@ describe('cipher', () => {
     // [Português]
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
-    //
-    // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
-    //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
-    // });
+    //DESDE AQUI
+    it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
+       expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
+     });
+     //HASTA AQUI
 
     // Hacker edition
     //
@@ -52,10 +53,11 @@ describe('cipher', () => {
     // [Português]
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
-    //
-    // it('should return " !@" for " !@"', () => {
-    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
-    // });
+    // DESDE AQUI
+    it('should return " !@" for " !@"', () => {
+       expect(cipher.encode(33, ' !@')).toBe(' !@');
+    });
+    //HASTA AQUI
   });
 
   describe('cipher.decode', () => {
@@ -85,10 +87,11 @@ describe('cipher', () => {
     // [Português]
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
-    //
-    // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
-    //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
-    // });
+    //DESDE ACA
+    it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
+      expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
+    });
+    //HASTA ACA
 
     // Hacker edition
     //
@@ -99,10 +102,11 @@ describe('cipher', () => {
     // [Português]
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
-    //
-    // it('should return " !@" para " !@"', () => {
-    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
-    // });
+    //DESDE ACA
+   it('should return " !@" para " !@"', () => {
+     expect(cipher.decode(33, ' !@')).toBe(' !@');
+     });
+     //HASTA ACA
   });
 
 });

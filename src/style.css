@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Nexa";
 }
 
 body{
     background-color: #AE86BC;
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-li, a {
-    font-size: 22px;
-    font-weight: bold;
-    color: #634FA1;
-    text-decoration: none;
-    background-color: white; /*Color del fondo de INICIO*/
+    padding-bottom: 0px;
 }
 
 header {
@@ -28,13 +20,19 @@ header {
     padding: 1% 1%;
 }
 
-.enlaces_de_navegacion {
+ul.navegacion li.navegacion {
     list-style: none; /*Quita el bullet point de la lista*/
+    display: inline-block;/*Alinea los li*/
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.logo {
-    background-color: white;
+ul.navegacion li.navegacion a {
+    color: #634FA1;
+    text-decoration: none;
+    padding: 5px;
 }
+
 
 h1, p {
     margin-left: 30px;
@@ -46,7 +44,7 @@ h2{
 }
 
 /*Mostrar de manera horizontal*/
-section {
+.proceso_cifrado_descifrado {
     margin-left: 9%;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(270px,1fr));
@@ -78,7 +76,7 @@ section {
     text-align: center; /*centrar los botones*/
 }
 
-textarea {
+.area_de_texto {
     width: 94%;
     height: 100%;
     box-sizing: border-box;
@@ -113,11 +111,24 @@ textarea {
     width: 56.6%;
 }
 
+/*Coloro para el fondo dentrás de los botones*/
 .botones {
     margin: none;
     background-color: #AE86BC;
 }
 
 .boton_encode:hover, .boton_decode:hover{
-    background-color:slategray ;
+    background-color:rgb(66, 64, 64) ;
+}
+
+ul.info {
+    list-style-type: circle;
+}
+
+.persona {
+    float: right;
+}
+
+.interlineado {
+    line-height: 2em;
 }

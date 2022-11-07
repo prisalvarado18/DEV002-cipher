@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cicolectiva</title>
+    <title>Cifracommunity</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -10,41 +10,42 @@
       <!--Logo-->
       <img class="logo" src="img/logo_app.png" alt="Logo de la app" style="width:5%">
       <!--Barra de navegación-->
-      <nav>
+      <nav class="menu">
         <!--Lista no ordenada-->
-        <ul class="enlaces_de_navegacion">
-          <li><a href="index.html">INICIO</a></li>
+        <ul class="navegacion">
+          <li class ="navegacion"><a href="index.html">Inicio</a></li>
+          <li class="navegacion"><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!--Mensaje de bienvenida-->
-      <h1>Bienvenid@</h1>
-      <p>INGRESA TU MENSAJE. ¡SEGURAS SIEMPRE!</p>
+      <h1>Bienvenid@ a Cifracommunity</h1>
+      <p>Ingresa el mensaje que deseas cifrar o descifrar</p>
       <br>
       <!--Sección para Cuadros con el proceso de cifrado o descifrado-->
-      <section class="contenido">
+      <section class="proceso_cifrado_descifrado">
         <!--Cuadro para "Ingresar texto"-->
-        <div id="input_texto">
+        <div id="cuadro_ingreso_texto">
           <!--Parte superior"-->
           <div class="parte_superior">
             <h2>TEXTO</h2>
           </div>
           <!--Parte inferior"-->
           <div class="parte_inferior">
-            <textarea type="text" id="ingreso_texto" placeholder="Escriba texto aquí"></textarea>
+            <textarea type="text" id="ingreso_texto" class="area_de_texto" placeholder="Escriba texto aquí"></textarea>
           </div>
         </div>
 
         <!--Cuadro para "Ingresar la clave con botones a escoger para cifrar o descifrar"-->
-        <div id="input_desplazamiento">
+        <div id="cuadro_ingreso_desplazamiento">
           <!--Parte superior"-->
           <div class="parte_superior">
             <h2>CLAVE</h2>
           </div>    
           <!--Parte inferior"-->  
           <div class="parte_inferior">
-            <textarea type="text" id="ingreso_desplazamientos" placeholder="Escriba clave aquí"></textarea>
+            <textarea type="text" id="ingreso_desplazamientos" class="area_de_texto" placeholder="Escriba clave aquí"></textarea>
             <br>
             <!--Botones-->
             <div class="botones">
@@ -55,21 +56,17 @@
         </div>
 
         <!--Cuadro para mostrar el mensaje cifrado o descifrado-->
-        <div id="output_cifrado_descifrado">
+        <div id="cuadro_output">
           <!--Parte superior-->
           <div class="parte_superior">
             <h2>MENSAJE</h2>
           </div>
           <div class="parte_inferior">
-            <textarea id="output"></textarea>
+            <textarea id="output" class="area_de_texto" placeholder="Tu mensaje cifrado o descifrado aparecerá aquí"></textarea>
           </div>
         </div>
       </section>
     </main>
-    <!--Preguntar para qué sirve root-->
-    <div id="root">
-      <!--<h1>Hello world!</h1>-->
-    </div>
     <script src="index.js" type="module">
     </script>
   </body>
