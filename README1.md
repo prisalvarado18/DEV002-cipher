@@ -99,6 +99,7 @@ En este recuadro debe ingresar el texto que desea cifrar o descifrar.
 En este recuadro debe ingresar la clave la cual consta solamente de números. Si no es el caso, el mensaje no será mostrado.
 #### Mensaje
 En este recuadro se desplegará el mensaje cifrado o descifrado. 
-
 #### Inicio
 Adicionalmente, si la usuaria desea borrar todo puede dar click en "INICIO" que se encuentra en la parte superior derecha de la aplicación. 
+#### Contacto
+Si la usuaria desea obtener más información de cómo funciona el programa puede dar click en "CONTACTO" que se encuentra en la parte superior derecha de la aplicación. Allí se le solicitará que envíe un correo electrónico con sus datos para que la puedan ayudar desde su propia colectiva.  
