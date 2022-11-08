@@ -78,7 +78,8 @@ La interacción con el usuario fue definida con el uso de Figma.
 
 * User flow
 ![flujo-de-usuario](./src/img/flujo-de-usuario.jpg)
-Usted puede mirar este flujo [aquí](https://www.figma.com/file/k8UIyB9IbwQ75jghEq3IP5/Cipher?node-id=0%3A1).
+
+Usted puede observar y probar el flujo de usario [aquí](https://www.figma.com/file/k8UIyB9IbwQ75jghEq3IP5/Cipher?node-id=0%3A1).
 
 ### 5.3. Manual de usuario
 ### 5.3.1. Uso online
