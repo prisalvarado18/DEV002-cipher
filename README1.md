@@ -74,6 +74,12 @@ A continuación, se muestra el diseño de los prototipos el conjunto con el clie
 * Prototipo de alta fidelidad (Segundo)
 ![segundo-prototipo](./src/img/prototipo-alta-fidelidad-segundo.jpg)
 
+La interacción con el usuario fue definida con el uso de Figma.
+
+* User flow
+![flujo-de-usuario](./src/img/flujo-de-usuario.jpg)
+Usted puede mirar este flujo [aquí](https://www.figma.com/file/k8UIyB9IbwQ75jghEq3IP5/Cipher?node-id=0%3A1).
+
 ### 5.3. Manual de usuario
 ### 5.3.1. Uso online
 * Para emplear esta aplicación en línea debe ingresar al siguiente enlace: https://prisalvarado18.github.io/DEV002-cipher/src/index.html
