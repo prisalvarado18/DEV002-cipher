@@ -16,7 +16,7 @@ DISEÑO Y DESARROLLO DE UNA APLICACIÓN DE CIFRADO SECRETO PARA COLECTIVOS DE MU
 ## 2. Planteamiento del problema
 
 En la actualidad, Ecuador se enfrenta a una crisis de seguridad tanto cibernética como física. Por un lado,
-los riegos cibernéticos y el filtrado de datos son muy comunes. De hecho, según [Prensa.ec](https://prensa.ec/2022/06/22/ecuador-es-uno-de-los-paises-mas-vulnerables-para-los-ciberdelincuentes/#:~:text=En%20Ecuador%2C%20de%20acuerdo%20con,demuestra%20que%20desde%20el%20primer) 
+los riesgos cibernéticos y el filtrado de datos son muy comunes. De hecho, según [Prensa.ec](https://prensa.ec/2022/06/22/ecuador-es-uno-de-los-paises-mas-vulnerables-para-los-ciberdelincuentes/#:~:text=En%20Ecuador%2C%20de%20acuerdo%20con,demuestra%20que%20desde%20el%20primer) 
 en Ecuador se notificaron 7.292 ataques en el primer cuatrimestre del 2022, mientras que en 2021 hubo 15.847 alertas. De esta manera, la confianza de los ciudadanos en los sistemas informáticos es casi nula. Inclusive
 los mensajes de whatsapp del ex-presidente Lenin Moreno con su familia fueron filtrados. 
 
