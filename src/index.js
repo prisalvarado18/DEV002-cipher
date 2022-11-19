@@ -17,6 +17,13 @@ const mostrarMensajeCifrado =()=>{
 //Cuando el usuario de click en "CIFRAR" ejecutará la función "mostrarMensajeCifrado" 
 botonCifrar.addEventListener('click', mostrarMensajeCifrado);
 
+//botonCifrar.addEventListener('click', ()=>{
+//    let cadena = ingreso_texto.value;//Guarda al texto ingresado por el usuario inicialmente
+//    let desplazamiento = ingreso_desplazamientos.value;//Guarda a la clave ingresada por el usuario inicialmente
+//    output.innerHTML = cipher.encode(desplazamiento,cadena);//Cambia el texto con el resultado de llamar a "encode" 
+
+//});
+
 //Función que envía el input del usuario a cipher.js y ejecuta "decode"
 const mostrarMensajeDescifrado =()=>{
     let cadena = ingreso_texto.value;//Guarda al texto ingresado por el usuario inicialmente
